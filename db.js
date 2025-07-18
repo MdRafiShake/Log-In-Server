@@ -3,7 +3,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import Login from "./schema/login.js";
 
-const URL = "mongodb://localhost:27017/LogIn";
+const URL = "mongodb+srv://rafishake6233:GPSewb29ThG1rJEy@cluster0.n2owahs.mongodb.net/LogIn?retryWrites=true&w=majority&appName=Cluster0"; 
+
 const port = 3000;
 
 const app = express();
